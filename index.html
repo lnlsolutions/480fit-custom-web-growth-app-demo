@@ -1,182 +1,2056 @@
-LNL SOLUTIONS
-CUSTOM DIGITAL MOCKUP PROPOSAL — CONFIDENTIAL
-480FIT
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+480FIT | Custom Digital Growth Proposal by LNL Solutions
+</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;500;600;700;800;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+--black:#050505;
+--dark:#0e0e0e;
+--card:#171717;
+--line:#292929;
+--green:#7ed957;
+--lime:#baff39;
+--white:#f8f8f8;
+--muted:#9a9a9a;
+
+--display:'Bebas Neue',sans-serif;
+--body:'Barlow',sans-serif;
+--mono:'Share Tech Mono',monospace;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+background:var(--black);
+color:var(--white);
+font-family:var(--body);
+line-height:1.5;
+overflow-x:hidden;
+}
+
+a{
+text-decoration:none;
+}
+
+img{
+display:block;
+max-width:100%;
+}
+
+.proposal-bar{
+background:#111;
+border-bottom:1px solid #222;
+padding:18px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+gap:16px;
+}
+
+.lnl-logo{
+font-family:var(--display);
+font-size:28px;
+letter-spacing:3px;
+}
+
+.lnl-logo span{
+color:var(--green);
+}
+
+.proposal-meta{
+font-family:var(--mono);
+font-size:10px;
+letter-spacing:2px;
+color:#777;
+}
+
+.client-pill{
+padding:8px 14px;
+border-radius:999px;
+border:1px solid rgba(126,217,87,.35);
+font-family:var(--mono);
+font-size:10px;
+letter-spacing:2px;
+color:var(--lime);
+}
+
+.mockup-label{
+background:linear-gradient(
+90deg,
+var(--green),
+var(--lime)
+);
+
+padding:18px 40px;
+
+color:#050505;
+
+display:flex;
+gap:20px;
+align-items:center;
+flex-wrap:wrap;
+}
+
+.mockup-label strong{
+font-family:var(--display);
+font-size:32px;
+letter-spacing:3px;
+font-weight:400;
+}
+
+.mockup-label span{
+font-family:var(--mono);
+font-size:10px;
+letter-spacing:2px;
+opacity:.8;
+}
+
+.nav{
+height:78px;
+background:rgba(5,5,5,.95);
+backdrop-filter:blur(20px);
+border-bottom:1px solid #1d1d1d;
+
+display:flex;
+align-items:center;
+justify-content:space-between;
+
+padding:0 44px;
+
+position:sticky;
+top:0;
+z-index:100;
+}
+
+.brand{
+font-family:var(--display);
+font-size:38px;
+letter-spacing:2px;
+}
+
+.brand span{
+color:var(--green);
+}
+
+.nav-links{
+display:flex;
+gap:24px;
+align-items:center;
+}
+
+.nav-links a{
+color:#aaa;
+font-family:var(--mono);
+font-size:10px;
+letter-spacing:1.5px;
+}
+
+.nav-links a:hover{
+color:white;
+}
+
+.nav-cta{
+background:var(--green);
+color:black !important;
+
+padding:12px 22px;
+
+font-family:var(--display) !important;
+font-size:20px !important;
+letter-spacing:1px !important;
+}
+
+.hero{
+
+min-height:720px;
+
+background:
+linear-gradient(
+90deg,
+rgba(0,0,0,.95),
+rgba(0,0,0,.75) 40%,
+rgba(0,0,0,.35)
+),
+
+url("https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=2000&q=80");
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+align-items:flex-end;
+
+position:relative;
+overflow:hidden;
+}
+
+.hero::after{
+content:"";
+
+position:absolute;
+left:0;
+right:0;
+bottom:0;
+
+height:180px;
+
+background:
+linear-gradient(
+to top,
+#050505,
+transparent
+);
+}
+
+.hero-content{
+position:relative;
+z-index:2;
+
+padding:90px 54px 80px;
+
+max-width:850px;
+}
+
+.kicker{
+display:block;
+
+font-family:var(--mono);
+font-size:11px;
+letter-spacing:3px;
+
+color:var(--green);
+
+margin-bottom:16px;
+}
+
+.hero h1{
+font-family:var(--display);
+
+font-size:130px;
+
+line-height:.84;
+
+letter-spacing:2px;
+font-weight:400;
+}
+
+.hero h1 em{
+font-style:normal;
+color:var(--green);
+}
+
+.hero p{
+font-size:20px;
+color:#c6c6c6;
+
+margin:24px 0 34px;
+
+max-width:620px;
+}
+
+.btn-row{
+display:flex;
+gap:14px;
+flex-wrap:wrap;
+}
+
+.btn{
+display:inline-block;
+
+padding:15px 30px;
+
+font-family:var(--display);
+
+font-size:24px;
+letter-spacing:1px;
+}
+
+.btn-primary{
+background:var(--green);
+color:black;
+}
+
+.btn-secondary{
+border:1px solid #555;
+color:white;
+}
+
+.stats{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+
+background:#080808;
+
+border-top:1px solid #222;
+border-bottom:1px solid #222;
+}
+
+.stat{
+padding:26px 32px;
+border-right:1px solid #222;
+}
+
+.stat:last-child{
+border-right:none;
+}
+
+.stat b{
+display:block;
+
+font-family:var(--display);
+
+font-size:48px;
+
+color:var(--green);
+}
+
+.stat span{
+font-family:var(--mono);
+
+font-size:9px;
+letter-spacing:2px;
+
+color:#777;
+}
+
+section{
+padding:90px 50px;
+}
+
+.dark{
+background:#0c0c0c;
+}
+
+.section-kicker{
+font-family:var(--mono);
+
+font-size:10px;
+letter-spacing:3px;
+
+color:var(--green);
+
+display:block;
+margin-bottom:12px;
+}
+
+.section-title{
+font-family:var(--display);
+
+font-size:78px;
+line-height:.95;
+letter-spacing:2px;
+
+font-weight:400;
+}
+
+.section-title em{
+font-style:normal;
+color:var(--green);
+}
+
+.section-sub{
+font-size:18px;
+color:#aaa;
+
+max-width:900px;
+
+margin:20px 0 40px;
+}
+
+.membership-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:18px;
+}
+
+.price-card{
+background:
+linear-gradient(
+180deg,
+#181818,
+#101010
+);
+
+border:1px solid #2a2a2a;
+
+padding:30px;
+
+position:relative;
+overflow:hidden;
+}
+
+.price-card.featured{
+border-color:rgba(126,217,87,.75);
+
+box-shadow:
+0 0 0 1px rgba(126,217,87,.25),
+0 30px 80px rgba(126,217,87,.08);
+}
+
+.ribbon{
+position:absolute;
+
+right:18px;
+top:18px;
+
+background:var(--green);
+color:black;
+
+padding:6px 10px;
+
+font-family:var(--mono);
+font-size:8px;
+letter-spacing:1.5px;
+}
+
+.price-card h3{
+font-family:var(--display);
+
+font-size:38px;
+letter-spacing:1.2px;
+font-weight:400;
+}
+
+.price{
+font-family:var(--display);
+
+font-size:52px;
+line-height:1;
+
+color:var(--green);
+
+margin:14px 0 20px;
+}
+
+.price small{
+font-family:var(--mono);
+font-size:10px;
+letter-spacing:1px;
+
+color:#777;
+}
+
+.price-card ul{
+padding-left:18px;
+color:#c4c4c4;
+
+margin:18px 0 26px;
+}
+
+.price-card li{
+margin:10px 0;
+}
+
+.card-btn{
+display:block;
+
+background:var(--green);
+color:black;
+
+padding:13px;
+
+text-align:center;
+
+font-family:var(--display);
+font-size:21px;
+letter-spacing:1px;
+}
+
+.experience-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:34px;
+
+align-items:center;
+}
+
+.amenities-list{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:14px;
+}
+
+.amenity{
+background:#151515;
+border:1px solid #272727;
+
+padding:22px;
+
+min-height:170px;
+}
+
+.amenity .icon{
+font-size:34px;
+}
+
+.amenity h3{
+font-family:var(--display);
+
+font-size:30px;
+letter-spacing:1px;
+font-weight:400;
+
+margin:8px 0 6px;
+}
+
+.amenity p{
+color:#aaa;
+font-size:14px;
+}
+
+.image-stack{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:14px;
+}
+
+.image-card{
+min-height:230px;
+
+background-size:cover;
+background-position:center;
+
+border:1px solid #2a2a2a;
+
+position:relative;
+overflow:hidden;
+}
+
+.image-card.tall{
+grid-row:span 2;
+min-height:474px;
+}
+
+.image-card::after{
+content:"";
+
+position:absolute;
+inset:0;
+
+background:
+linear-gradient(
+to top,
+rgba(0,0,0,.82),
+transparent
+);
+}
+
+.image-card span{
+position:absolute;
+
+left:18px;
+bottom:16px;
+
+z-index:2;
+
+font-family:var(--display);
+font-size:28px;
+letter-spacing:1px;
+}
+
+.training-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:15px;
+}
+
+.program{
+background:#151515;
+border:1px solid #292929;
+
+padding:25px;
+}
+
+.program small{
+font-family:var(--mono);
+
+font-size:9px;
+letter-spacing:2px;
+
+color:var(--green);
+}
+
+.program h3{
+font-family:var(--display);
+
+font-size:31px;
+line-height:.98;
+letter-spacing:1px;
+font-weight:400;
+
+margin:12px 0;
+}
+
+.program p{
+color:#aaa;
+font-size:14px;
+}
+
+.lead-section{
+background:
+radial-gradient(
+circle at 70% 30%,
+rgba(255,255,255,.25),
+transparent 22%
+),
+linear-gradient(
+135deg,
+var(--green),
+var(--lime)
+);
+
+color:black;
+
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+
+align-items:center;
+}
+
+.lead-section .section-kicker{
+color:black;
+}
+
+.lead-section h2{
+font-family:var(--display);
+
+font-size:92px;
+line-height:.88;
+font-weight:400;
+}
+
+.lead-section p{
+font-size:19px;
+
+margin-top:20px;
+
+max-width:620px;
+}
+
+.form-box{
+background:#080808;
+color:white;
+
+border:1px solid rgba(0,0,0,.4);
+
+padding:28px;
+}
+
+.form-box input,
+.form-box select{
+width:100%;
+
+background:#171717;
+border:1px solid #333;
+
+color:white;
+
+padding:15px;
+
+margin-bottom:12px;
+
+font-family:var(--body);
+}
+
+.form-box button{
+width:100%;
+
+background:var(--green);
+border:none;
+
+color:black;
+
+padding:15px;
+
+font-family:var(--display);
+font-size:24px;
+letter-spacing:1px;
+}
+
+.seo-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:22px;
+}
+
+.seo-card{
+background:#151515;
+border:1px solid #282828;
+
+padding:28px;
+}
+
+.seo-card h3{
+font-family:var(--display);
+
+font-size:40px;
+letter-spacing:1px;
+font-weight:400;
+
+margin-bottom:12px;
+}
+
+.keyword{
+display:inline-block;
+
+border:1px solid #333;
+background:#0c0c0c;
+
+color:#cfcfcf;
+
+padding:9px 12px;
+margin:5px;
+
+font-family:var(--mono);
+font-size:10px;
+}
+
+.funnel-step{
+display:grid;
+grid-template-columns:48px 1fr;
+gap:14px;
+
+margin:16px 0;
+}
+
+.funnel-step b{
+width:48px;
+height:48px;
+
+background:var(--green);
+color:black;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+font-family:var(--display);
+font-size:30px;
+font-weight:400;
+}
+
+.funnel-step h4{
+font-family:var(--display);
+
+font-size:24px;
+letter-spacing:1px;
+font-weight:400;
+}
+
+.funnel-step p{
+color:#aaa;
+font-size:14px;
+}
+
+.app-showcase{
+background:#080808;
+padding:80px 34px;
+}
+
+.app-title{
+text-align:center;
+
+font-family:var(--display);
+
+font-size:68px;
+letter-spacing:2px;
+font-weight:400;
+}
+
+.app-sub{
+text-align:center;
+
+font-family:var(--mono);
+
+font-size:10px;
+letter-spacing:3px;
+
+color:#777;
+
+margin:10px auto 50px;
+}
+
+.phones{
+display:flex;
+justify-content:center;
+align-items:flex-start;
+flex-wrap:wrap;
+
+gap:30px;
+}
+
+.phone-wrap{
+width:286px;
+}
+
+.phone{
+background:#1b1b1b;
+
+border:3px solid #343434;
+border-radius:42px;
+
+padding:10px;
+
+box-shadow:
+0 28px 70px rgba(0,0,0,.7);
+}
+
+.screen{
+min-height:535px;
+
+background:#0d0d0d;
+
+border-radius:30px;
+
+overflow:hidden;
+
+border:1px solid #262626;
+}
+
+.status{
+height:34px;
+
+background:#070707;
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:0 16px;
+
+font-family:var(--mono);
+font-size:10px;
+}
+
+.app-head{
+background:
+linear-gradient(
+135deg,
+#071006,
+#1d3817
+);
+
+padding:20px;
+}
+
+.app-logo{
+font-family:var(--display);
+
+font-size:31px;
+letter-spacing:1px;
+}
+
+.app-logo span{
+color:var(--green);
+}
+
+.app-head h3{
+font-family:var(--display);
+
+font-size:30px;
+font-weight:400;
+
+line-height:1;
+
+margin-top:8px;
+}
+
+.app-head p{
+color:#aaa;
+font-size:12px;
+
+margin-top:6px;
+}
+
+.streak{
+margin-top:14px;
+
+background:
+rgba(126,217,87,.1);
+
+border:
+1px solid rgba(126,217,87,.35);
+
+border-radius:14px;
+
+padding:12px;
+}
+
+.streak b{
+color:white;
+}
+
+.app-body{
+padding:16px;
+}
+
+.quick{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:9px;
+}
+
+.q{
+background:#181818;
+
+border:1px solid #2a2a2a;
+
+padding:13px;
+
+border-radius:13px;
+}
+
+.q b{
+display:block;
+
+font-family:var(--display);
+
+font-size:18px;
+letter-spacing:.5px;
+font-weight:400;
+}
+
+.q span{
+font-size:10px;
+color:#777;
+}
+
+.item{
+background:#181818;
+
+border:1px solid #2a2a2a;
+
+padding:14px;
+
+border-radius:14px;
+
+margin:9px 0;
+}
+
+.item h4{
+font-family:var(--display);
+
+font-size:22px;
+font-weight:400;
+
+letter-spacing:.7px;
+}
+
+.item p{
+font-size:11px;
+color:#aaa;
+}
+
+.mini-btn{
+display:inline-block;
+
+background:var(--green);
+
+color:black;
+
+padding:8px 10px;
+
+border-radius:7px;
+
+font-family:var(--display);
+
+font-size:15px;
+letter-spacing:.8px;
+
+margin-top:9px;
+}
+
+.chat-bubble{
+background:#202020;
+
+border:1px solid #333;
+
+padding:10px 12px;
+
+border-radius:14px 14px 14px 4px;
+
+margin:9px 0;
+
+color:#ddd;
+font-size:12px;
+}
+
+.chat-bubble.me{
+background:
+rgba(126,217,87,.14);
+
+border-color:
+rgba(126,217,87,.35);
+
+border-radius:
+14px 14px 4px 14px;
+}
+
+.macro-row{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:8px;
+
+margin:10px 0;
+}
+
+.macro{
+background:#111;
+
+border:1px solid #292929;
+
+border-radius:10px;
+
+padding:10px;
+
+text-align:center;
+}
+
+.macro b{
+display:block;
+
+font-family:var(--display);
+
+font-size:25px;
+font-weight:400;
+
+color:var(--green);
+}
+
+.macro span{
+font-family:var(--mono);
+
+font-size:7px;
+
+color:#777;
+}
+
+.navbar{
+height:55px;
+
+background:#070707;
+
+border-top:1px solid #222;
+
+display:flex;
+justify-content:space-around;
+align-items:center;
+
+font-family:var(--mono);
+font-size:8px;
+
+color:#888;
+}
+
+.navbar .active{
+color:var(--green);
+}
+
+.caption{
+text-align:center;
+
+padding:14px 8px;
+}
+
+.caption h3{
+font-family:var(--display);
+
+font-size:21px;
+letter-spacing:1px;
+
+font-weight:400;
+}
+
+.caption p{
+font-family:var(--mono);
+
+font-size:8px;
+letter-spacing:1px;
+
+color:#777;
+}
+
+.offer{
+background:
+linear-gradient(
+135deg,
+#101010,
+#1b3316
+);
+
+text-align:center;
+}
+
+.offer h2{
+font-family:var(--display);
+
+font-size:84px;
+line-height:.92;
+
+font-weight:400;
+}
+
+.offer h2 span{
+color:var(--green);
+}
+
+.offer p{
+max-width:900px;
+
+margin:20px auto;
+
+color:#bbb;
+
+font-size:18px;
+}
+
+.deliverables{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+
+gap:12px;
+
+max-width:1100px;
+
+margin:34px auto 0;
+}
+
+.deliverables div{
+background:#111;
+
+border:1px solid #2b2b2b;
+
+padding:18px;
+
+font-family:var(--mono);
+font-size:10px;
+letter-spacing:1px;
+
+color:#cfcfcf;
+}
+
+.footer{
+background:#080808;
+
+border-top:1px solid #222;
+
+padding:34px 40px;
+
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+
+gap:20px;
+
+font-family:var(--mono);
+
+font-size:10px;
+
+color:#777;
+}
+
+.footer b{
+font-family:var(--display);
+
+font-size:24px;
+font-weight:400;
+
+letter-spacing:2px;
+
+color:white;
+}
+
+.footer b span{
+color:var(--green);
+}
+
+@media(max-width:1000px){
+
+.hero h1{
+font-size:96px;
+}
+
+.experience-grid,
+.lead-section,
+.seo-grid{
+grid-template-columns:1fr;
+}
+
+.membership-grid,
+.training-grid{
+grid-template-columns:1fr 1fr;
+}
+
+.deliverables{
+grid-template-columns:1fr 1fr;
+}
+
+}
+
+@media(max-width:720px){
+
+.proposal-bar,
+.mockup-label{
+padding-left:18px;
+padding-right:18px;
+}
+
+.proposal-meta{
+text-align:left;
+}
+
+.nav{
+padding:0 18px;
+}
+
+.nav-links{
+display:none;
+}
+
+.hero{
+min-height:620px;
+}
+
+.hero-content{
+padding:70px 22px 55px;
+}
+
+.hero h1{
+font-size:72px;
+}
+
+.hero p{
+font-size:17px;
+}
+
+.stats{
+grid-template-columns:1fr 1fr;
+}
+
+.stat{
+border-right:none;
+border-bottom:1px solid #222;
+}
+
+section{
+padding:58px 20px;
+}
+
+.section-title{
+font-size:54px;
+}
+
+.membership-grid,
+.training-grid,
+.amenities-list,
+.deliverables{
+grid-template-columns:1fr;
+}
+
+.image-stack{
+grid-template-columns:1fr;
+}
+
+.image-card.tall{
+min-height:260px;
+}
+
+.lead-section h2,
+.offer h2{
+font-size:52px;
+}
+
+
+.app-title{
+font-size:52px;
+}
+
+}
+
+@media(max-width:420px){
+
+.hero h1{
+font-size:62px;
+}
+
+.btn{
+width:100%;
+text-align:center;
+}
+
+.stats{
+grid-template-columns:1fr;
+}
+
+.phone-wrap{
+width:100%;
+max-width:286px;
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<header class="proposal-bar">
+
+<div class="lnl-logo">
+LNL <span>SOLUTIONS</span>
+</div>
+
+<div class="proposal-meta">
+CUSTOM DIGITAL GROWTH MOCKUP • CONFIDENTIAL CLIENT PREVIEW
+</div>
+
+<div class="client-pill">
+PREPARED FOR 480FIT
+</div>
+
+</header>
+
+<div class="mockup-label">
+
+<strong>
 WEBSITE REVAMP MOCKUP
-PROPOSED REDESIGN — 480FIT.COM
-480FIT
+</strong>
+
+<span>
+PROPOSED REDESIGN + MEMBERSHIP GROWTH SYSTEM
+</span>
+
+</div>
+
+<nav class="nav">
+
+<div class="brand">
+480<span>FIT</span>
+</div>
+
+<div class="nav-links">
+<a href="#memberships">MEMBERSHIPS</a>
+<a href="#training">TRAINING</a>
+<a href="#app">APP</a>
+<a href="#growth">SEO + ADS</a>
+</div>
+
+<a href="#trial" class="nav-cta">
 START 5-DAY TRIAL
-CHANDLER, AZ • 2130 W CHANDLER BLVD
-TRAIN ANYTIME. RESULTS EVERYDAY.
-480FIT reimagined as a high-converting digital experience for memberships, personal training consultations, Group X class bookings, and local search growth.
+</a>
+
+</nav>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<span class="kicker">
+CHANDLER, AZ • 24-HOUR MEMBER ACCESS
+</span>
+
+<h1>
+TRAIN<br>
+ANYTIME.<br>
+<em>RESULTS</em><br>
+EVERYDAY.
+</h1>
+
+<p>
+480FIT reimagined as a premium digital experience built to increase memberships, personal training consultations, class bookings, retention, and local search visibility.
+</p>
+
+<div class="btn-row">
+
+<a href="#trial" class="btn btn-primary">
 START FREE 5-DAY TRIAL
+</a>
+
+<a href="#memberships" class="btn btn-secondary">
 VIEW MEMBERSHIPS
-24/7
-MEMBER ACCESS
-18K
-SQ FT FACILITY
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<div class="stats">
+
+<div class="stat">
+<b>24/7</b>
+<span>MEMBER ACCESS</span>
+</div>
+
+<div class="stat">
+<b>18K</b>
+<span>SQ FT FACILITY</span>
+</div>
+
+<div class="stat">
+<b>$29.99</b>
+<span>STARTING MONTHLY</span>
+</div>
+
+<div class="stat">
+<b>5-DAY</b>
+<span>TRIAL PASS</span>
+</div>
+
+</div>
+
+<section id="memberships" class="dark">
+
+<span class="section-kicker">
+CONVERSION FOCUSED MEMBERSHIPS
+</span>
+
+<h2 class="section-title">
+MEMBERSHIPS <em>MADE EASY</em>
+</h2>
+
+<p class="section-sub">
+The pricing experience becomes a cleaner decision path with stronger calls-to-action and built-in personal training upsells.
+</p>
+
+<div class="membership-grid">
+
+<div class="price-card">
+
+<h3>STANDARD</h3>
+
+<div class="price">
 $29.99
-STARTING MONTHLY
-5-DAY
-LOCAL TRIAL PASS
-CONVERSION-FOCUSED OFFER
-MEMBERSHIPS MADE EASY
-The current pricing is turned into a clean decision path with fewer distractions, stronger calls-to-action, and built-in upsells for training and corporate memberships.
-STANDARD
-$29.99/MO
-	•	Month-to-month membership
-	•	24-hour member access
-	•	Cardio + strength equipment
-	•	Complimentary towel service
-	•	Sunday family/friend access
+<small>/MO</small>
+</div>
+
+<ul>
+<li>24-hour member access</li>
+<li>Month-to-month</li>
+<li>Strength + cardio equipment</li>
+<li>Online signup</li>
+<li>Trial-to-member automation</li>
+</ul>
+
+<a href="#" class="card-btn">
 JOIN STANDARD
+</a>
+
+</div>
+
+<div class="price-card featured">
+
+<div class="ribbon">
 BEST VALUE
-PREMIUM
-$39.99/MO
-	•	$0 joining fee promotion placement
-	•	Month-to-month membership
-	•	24-hour member access
-	•	Cardio + strength equipment
-	•	Premium upgrade funnel
+</div>
+
+<h3>PREMIUM</h3>
+
+<div class="price">
+$39.99
+<small>/MO</small>
+</div>
+
+<ul>
+<li>$0 joining fee promotion</li>
+<li>24-hour access</li>
+<li>Premium member perks</li>
+<li>Class booking priority</li>
+<li>App engagement rewards</li>
+</ul>
+
+<a href="#" class="card-btn">
 JOIN PREMIUM
-TRAINING+
-CONSULT/FREE
-	•	Free personal training consultation
-	•	Goal-based plan recommendation
-	•	Transformation program upsell
-	•	Trainer booking integration
-	•	Follow-up automation
+</a>
+
+</div>
+
+<div class="price-card">
+
+<h3>TRAINING+</h3>
+
+<div class="price">
+FREE
+<small>CONSULT</small>
+</div>
+
+<ul>
+<li>Goal assessment</li>
+<li>Trainer matching</li>
+<li>Body transformation roadmap</li>
+<li>Program recommendations</li>
+<li>Follow-up sequence</li>
+</ul>
+
+<a href="#" class="card-btn">
 BOOK CONSULT
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="experience-grid">
+
+<div>
+
+<span class="section-kicker">
 FACILITY EXPERIENCE
-BUILT FOR EVERY TRAINING STYLE
-The redesign highlights 480FIT’s core amenities without overcrowding the page, making the gym feel premium, local, and easy to join.
-🏃‍♂️
-CARDIO
-Premium cardio equipment for beginners, commuters, and transformation-focused members.
-💪
-STRENGTH
-Strength machines, free weights, kettlebells, bars, and functional training space.
-⚡
-GROUP X
-Class discovery and booking experience built to increase attendance and engagement.
-🎽
-ATHLETIC TRAINING
-Performance and conditioning pathway for athletes, adults, and goal-driven members.
-🏢
-CORPORATE
-Landing page for Chandler businesses, wellness, and team packages.
-HIGHER-TICKET SERVICE FUNNEL
-PERSONAL TRAINING THAT SELLS
-Personal training becomes its own lead engine with consultation booking, trainer matching, and goal-based program pathways.
-PROGRAM 01
-BODY TRANSFORMATION
-For fat loss, strength, accountability, and confidence.
-PROGRAM 02
-STRENGTH FOUNDATIONS
-For beginners and returning gym-goers.
-PROGRAM 03
-ATHLETIC PERFORMANCE
-Speed, power, conditioning, and sport-specific support.
-PROGRAM 04
-SMALL GROUP TRAINING
-Scalable coaching revenue with accountability.
+</span>
+
+<h2 class="section-title">
+BUILT FOR EVERY <em>TRAINING STYLE</em>
+</h2>
+
+<p class="section-sub">
+The redesign positions 480FIT as Chandler's premium local fitness destination while making it easy for visitors to take action.
+</p>
+
+<div class="amenities-list">
+
+<div class="amenity">
+<div class="icon">🏃</div>
+<h3>CARDIO</h3>
+<p>Premium cardio equipment and endurance training space.</p>
+</div>
+
+<div class="amenity">
+<div class="icon">💪</div>
+<h3>STRENGTH</h3>
+<p>Free weights, racks, machines, and functional fitness.</p>
+</div>
+
+<div class="amenity">
+<div class="icon">⚡</div>
+<h3>GROUP X</h3>
+<p>Class discovery and booking system.</p>
+</div>
+
+<div class="amenity">
+<div class="icon">🏢</div>
+<h3>CORPORATE</h3>
+<p>Dedicated wellness and business membership packages.</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="image-stack">
+
+<div
+class="image-card tall"
+style="
+background-image:url('https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=900&q=80');
+">
+<span>STRENGTH FLOOR</span>
+</div>
+
+<div
+class="image-card"
+style="
+background-image:url('https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=900&q=80');
+">
+<span>GROUP X</span>
+</div>
+
+<div
+class="image-card"
+style="
+background-image:url('https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=900&q=80');
+">
+<span>CARDIO</span>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="training" class="dark">
+
+<span class="section-kicker">
+PERSONAL TRAINING SALES ENGINE
+</span>
+
+<h2 class="section-title">
+PERSONAL TRAINING <em>THAT SELLS</em>
+</h2>
+
+<p class="section-sub">
+Dedicated pathways for consultations, assessments, and higher-ticket training programs.
+</p>
+
+<div class="training-grid">
+
+<div class="program">
+<small>PROGRAM 01</small>
+<h3>BODY TRANSFORMATION</h3>
+<p>Fat loss, strength, accountability, and confidence.</p>
+</div>
+
+<div class="program">
+<small>PROGRAM 02</small>
+<h3>STRENGTH FOUNDATIONS</h3>
+<p>Perfect for beginners and returning members.</p>
+</div>
+
+<div class="program">
+<small>PROGRAM 03</small>
+<h3>ATHLETIC PERFORMANCE</h3>
+<p>Speed, power, conditioning, and recovery.</p>
+</div>
+
+<div class="program">
+<small>PROGRAM 04</small>
+<h3>SMALL GROUP TRAINING</h3>
+<p>Community-based coaching and accountability.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="trial" class="lead-section">
+
+<div>
+
+<span class="section-kicker">
 PRIMARY LEAD CAPTURE
-CLAIM YOUR FREE 5-DAY TRIAL PASS
-A clean lead form gives 480FIT a dedicated conversion funnel for local residents ready to visit, tour, train, or compare memberships.
-Primary GoalLose WeightBuild MusclePersonal TrainingGroup ClassesTour The GymSUBMIT TRIAL REQUEST
-MOBILE APP MOCKUP
-480FIT APP — MEMBER RETENTION + TRAINING PLATFORM
+</span>
+
+<h2>
+CLAIM YOUR<br>
+FREE 5-DAY<br>
+TRIAL PASS
+</h2>
+
+<p>
+A dedicated conversion funnel for local residents who are ready to visit, tour, train, or compare memberships. Every submission can trigger instant SMS follow-up, email automation, and staff notifications.
+</p>
+
+</div>
+
+<div class="form-box">
+
+<input type="text" placeholder="Full Name">
+
+<input type="text" placeholder="Phone Number">
+
+<input type="email" placeholder="Email Address">
+
+<select>
+<option>Primary Goal</option>
+<option>Lose Weight</option>
+<option>Build Muscle</option>
+<option>Personal Training</option>
+<option>Group X Classes</option>
+<option>Tour The Gym</option>
+</select>
+
+<button>
+SUBMIT TRIAL REQUEST
+</button>
+
+</div>
+
+</section>
+
+<section id="growth" class="dark">
+
+<span class="section-kicker">
+SEARCH + PAID ADS
+</span>
+
+<h2 class="section-title">
+LOCAL <em>GROWTH ENGINE</em>
+</h2>
+
+<p class="section-sub">
+The website structure is built to support local SEO and paid advertising campaigns, making each service and offer easy to advertise, rank, and convert.
+</p>
+
+<div class="seo-grid">
+
+<div class="seo-card">
+
+<h3>SEO TARGET PAGES</h3>
+
+<p class="section-sub" style="font-size:15px;margin-bottom:20px;">
+Dedicated pages can target high-intent searches across Chandler and Tempe while driving visitors toward trial passes and consultations.
+</p>
+
+<span class="keyword">gym in Chandler AZ</span>
+<span class="keyword">24 hour gym Chandler</span>
+<span class="keyword">personal trainer Chandler</span>
+<span class="keyword">group fitness classes Chandler</span>
+<span class="keyword">gym near Tempe AZ</span>
+<span class="keyword">corporate gym memberships Chandler</span>
+
+</div>
+
+<div class="seo-card">
+
+<h3>AD FUNNEL</h3>
+
+<div class="funnel-step">
+<b>1</b>
+<div>
+<h4>AD CLICK</h4>
+<p>Google Ads, Meta Ads, Instagram, and retargeting campaigns.</p>
+</div>
+</div>
+
+<div class="funnel-step">
+<b>2</b>
+<div>
+<h4>LANDING PAGE</h4>
+<p>5-Day Trial, Membership Offer, or Personal Training Consult.</p>
+</div>
+</div>
+
+<div class="funnel-step">
+<b>3</b>
+<div>
+<h4>AUTOMATION</h4>
+<p>Instant SMS, email nurture campaigns, and lead alerts.</p>
+</div>
+</div>
+
+<div class="funnel-step">
+<b>4</b>
+<div>
+<h4>CONVERSION</h4>
+<p>Tour, Trial Visit, Membership, and Training Package.</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="app" class="app-showcase">
+
+<h2 class="app-title">
 480FIT MEMBER APP
-CHECK IN • BOOK CLASSES • TRACK PROGRESS • REFER FRIENDS • MESSAGE • MEAL PLAN
-9:41
-●●● 🔋
-480FIT
-WELCOME BACK, JORDAN
-🔥 8 DAY CHECK-IN STREAK
-📲 CHECK IN
-Digital member pass
-📅 BOOK CLASS
-Group X schedule
-💪 WORKOUT
-Today’s plan
-🎁 REFERRALS
-Earn rewards
-STRENGTH X
-Today 5:30 PM • 7 spots open
-RESERVE SPOT
-HOME
-CLASSES
-TRAIN
-REWARDS
-MEMBER DASHBOARD
-CHECK-IN • MEMBERSHIP STATUS • NEXT CLASS
-9:41
-●●● 🔋
-MY PROGRESS
-PERSONAL RECORDS • PHOTOS • GOALS
-PERSONAL RECORDS
-Bench 225 • Squat 315 • Deadlift 385
-UPDATE PR
-BEFORE + AFTER PHOTOS
-Private transformation gallery with monthly check-ins.
-ADD PHOTO
-BODY METRICS
-Weight, measurements, streaks, and goal progress.
-TRACK NOW
-HOME
-CLASSES
-PROGRESS
-MEALS
-PROGRESS TRACKING
-PRs • BEFORE/AFTER PHOTOS • BODY METRICS
-9:41
-●●● 🔋
-MESSAGES
-TRAINERS • MEMBERS • COMMUNITY
-COACH ALEX
-“Great job today. Send me your meal log tonight.”
-REPLY
-480FIT COMMUNITY CHAT
-Members share workouts, milestones, questions, and motivation.
-OPEN CHAT
-TRAINING GROUP
-Small group members can message each other and coach.
-VIEW THREAD
-HOME
-CHAT
-TRAIN
-PROFILE
-MESSAGING + COMMUNITY
-TRAINER CHAT • MEMBER CHAT • GYM COMMUNITY
-9:41
-●●● 🔋
-MEAL PLANNING
-TRACK • PLAN • SUGGEST
-TODAY’S MEALS
-1,640 calories • 142g protein • 68% complete
-LOG MEAL
-MEAL SUGGESTIONS
-High-protein meals based on member goal.
-VIEW PLAN
-COACH REVIEW
-Share meal logs with your trainer for accountability.
-SEND TO TRAINER
-HOME
-PROGRESS
-MEALS
-CHAT
-MEAL TRACKING
-LOG MEALS • MEAL PLANS • TRAINER ACCOUNTABILITY
-THE WEBSITE GETS THE LEAD. THE APP KEEPS THE MEMBER.
-This proposal positions 480FIT with a modern digital presence, stronger conversion funnels, local SEO architecture, paid ad landing pages, and a branded in-house application to improve engagement, referrals, retention, and personal training revenue.
-Conversion-focused website revamp
-5-Day Trial landing funnel
-Membership pricing experience
-Personal training consult flow
-Local SEO service pages
-Google + Meta ad campaigns
-480FIT mobile app concept
-Lead follow-up automation
-LNL SOLUTIONS LLC
-PREPARED FOR 480FIT • CUSTOM MOCKUP PROPOSAL
-lnlsolutions.cc
-Website • SEO • Ads • Apps
+</h2>
+
+<p class="app-sub">
+CHECK IN • BOOK CLASSES • TRACK PROGRESS • REFER FRIENDS • MESSAGE • MEAL PLANNING
+</p>
+
+<div class="phones">
+
+<div class="phone-wrap">
+<div class="phone">
+<div class="screen">
+
+<div class="status">
+<span>9:41</span>
+<span>●●● 🔋</span>
+</div>
+
+<div class="app-head">
+<div class="app-logo">
+480<span>FIT</span>
+</div>
+<h3>WELCOME BACK</h3>
+<p>8 DAY CHECK-IN STREAK</p>
+</div>
+
+<div class="app-body">
+
+<div class="quick">
+
+<div class="q">
+<b>📲 CHECK IN</b>
+<span>Digital member pass</span>
+</div>
+
+<div class="q">
+<b>📅 BOOK CLASS</b>
+<span>Group X schedule</span>
+</div>
+
+<div class="q">
+<b>💪 WORKOUT</b>
+<span>Today's workout</span>
+</div>
+
+<div class="q">
+<b>🎁 REWARDS</b>
+<span>Member referrals</span>
+</div>
+
+</div>
+
+<div class="item">
+<h4>STRENGTH X</h4>
+<p>Today • 5:30 PM • 7 Spots Open</p>
+<a class="mini-btn">RESERVE</a>
+</div>
+
+</div>
+
+<div class="navbar">
+<span class="active">HOME</span>
+<span>CLASS</span>
+<span>TRAIN</span>
+<span>MORE</span>
+</div>
+
+</div>
+</div>
+
+<div class="caption">
+<h3>MEMBER DASHBOARD</h3>
+<p>CHECK-IN • MEMBERSHIP • CLASSES</p>
+</div>
+</div>
+
+<div class="phone-wrap">
+<div class="phone">
+<div class="screen">
+
+<div class="status">
+<span>9:41</span>
+<span>●●● 🔋</span>
+</div>
+
+<div class="app-head">
+<h3>MY PROGRESS</h3>
+<p>PRs • Photos • Goals</p>
+</div>
+
+<div class="app-body">
+
+<div class="item">
+<h4>PERSONAL RECORDS</h4>
+<p>Bench 225 • Squat 315 • Deadlift 385</p>
+<a class="mini-btn">UPDATE PR</a>
+</div>
+
+<div class="item">
+<h4>BEFORE + AFTER PHOTOS</h4>
+<p>Transformation gallery with progress tracking.</p>
+<a class="mini-btn">UPLOAD PHOTO</a>
+</div>
+
+<div class="item">
+<h4>BODY METRICS</h4>
+<p>Weight, measurements, body fat, and goals.</p>
+<a class="mini-btn">TRACK NOW</a>
+</div>
+
+</div>
+
+<div class="navbar">
+<span>HOME</span>
+<span class="active">PROGRESS</span>
+<span>TRAIN</span>
+<span>MORE</span>
+</div>
+
+</div>
+</div>
+
+<div class="caption">
+<h3>PROGRESS TRACKING</h3>
+<p>PRS • PHOTOS • BODY METRICS</p>
+</div>
+</div>
+
+<div class="phone-wrap">
+<div class="phone">
+<div class="screen">
+
+<div class="status">
+<span>9:41</span>
+<span>●●● 🔋</span>
+</div>
+
+<div class="app-head">
+<h3>COMMUNITY CHAT</h3>
+<p>Members + Trainers</p>
+</div>
+
+<div class="app-body">
+
+<div class="chat-bubble">
+Coach Alex: Great workout today.
+</div>
+
+<div class="chat-bubble me">
+Thanks! I'll upload my meal log tonight.
+</div>
+
+<div class="item">
+<h4>480FIT COMMUNITY</h4>
+<p>Members share progress, challenges, and wins.</p>
+<a class="mini-btn">OPEN CHAT</a>
+</div>
+
+</div>
+
+<div class="navbar">
+<span>HOME</span>
+<span class="active">CHAT</span>
+<span>TRAIN</span>
+<span>MORE</span>
+</div>
+
+</div>
+</div>
+
+<div class="caption">
+<h3>MESSAGING + COMMUNITY</h3>
+<p>TRAINERS • MEMBERS • GROUPS</p>
+</div>
+</div>
+
+<div class="phone-wrap">
+<div class="phone">
+<div class="screen">
+
+<div class="status">
+<span>9:41</span>
+<span>●●● 🔋</span>
+</div>
+
+<div class="app-head">
+<h3>MEAL PLANNING</h3>
+<p>Nutrition Tracking</p>
+</div>
+
+<div class="app-body">
+
+<div class="macro-row">
+
+<div class="macro">
+<b>142g</b>
+<span>PROTEIN</span>
+</div>
+
+<div class="macro">
+<b>68%</b>
+<span>GOAL</span>
+</div>
+
+<div class="macro">
+<b>1640</b>
+<span>CALORIES</span>
+</div>
+
+</div>
+
+<div class="item">
+<h4>TODAY'S MEALS</h4>
+<p>Breakfast, Lunch, Dinner, Snacks</p>
+<a class="mini-btn">LOG MEAL</a>
+</div>
+
+<div class="item">
+<h4>MEAL SUGGESTIONS</h4>
+<p>Goal-based meal recommendations.</p>
+<a class="mini-btn">VIEW PLAN</a>
+</div>
+
+</div>
+
+<div class="navbar">
+<span>HOME</span>
+<span>PROGRESS</span>
+<span class="active">MEALS</span>
+<span>MORE</span>
+</div>
+
+</div>
+</div>
+
+<div class="caption">
+<h3>MEAL TRACKING</h3>
+<p>NUTRITION • PLANS • ACCOUNTABILITY</p>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<section class="offer">
+
+<h2>
+THE WEBSITE GETS<br>
+<span>THE LEAD.</span><br>
+THE APP KEEPS<br>
+THE MEMBER.
+</h2>
+
+<p>
+This proposal positions 480FIT with a stronger digital presence, higher conversion rates, local SEO visibility, paid advertising funnels, and a branded member application that increases retention, referrals, engagement, and personal training revenue.
+</p>
+
+<div class="deliverables">
+
+<div>Conversion-focused Website Revamp</div>
+<div>5-Day Trial Landing Funnel</div>
+<div>Membership Sales Experience</div>
+<div>Personal Training Consultation Funnel</div>
+<div>Local SEO Service Pages</div>
+<div>Google + Meta Ad Campaigns</div>
+<div>480FIT Member App</div>
+<div>Lead Follow-Up Automation</div>
+
+</div>
+
+</section>
+
+<footer class="footer">
+
+<div>
+<b>
+LNL <span>SOLUTIONS</span>
+</b>
+</div>
+
+<div>
+PREPARED FOR 480FIT • CUSTOM DIGITAL MOCKUP PROPOSAL
+</div>
+
+<div>
+lnlsolutions.cc<br>
+Websites • SEO • Ads • Apps
+</div>
+
+</footer>
+
+</body>
+</html>	
+
